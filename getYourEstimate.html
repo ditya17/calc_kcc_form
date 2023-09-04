@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Page Quiz Form - Page 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <iframe src="pagination.html" frameborder="0" scrolling="no"></iframe> -->
+    <div class="form-container">
+        <h1>Your Estimate Is Ready</h1>
+        <p>Please provide your details in the fields below and then proceed to click on the "Email my Estimate" button. A detailed estimate, based on the information you have provided, will be instantly sent to your email address.</p>
+        <form action="#">
+            <label for="name">Name</label></br>
+            <input type="text" id="name" name="name" placeholder="e.g. John Doe" required>
+            <br><br>
+
+            <label for="email">Email Address</label></br>
+            <input type="email" id="email" name="email" placeholder="e.g. abc@xyz">
+            <br><br>
+
+            <label for="phone">Phone Number</label></br>
+            <select id="country-code" name="country-code">
+                <option value="+91">+91 (India)</option>
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+33">+33 (France)</option>
+            </select>
+            <input type="tel" id="phone" name="phone" required>
+            <br><br>
+
+            <input type="button" value="Go Back" onclick="history.back()">
+            <input type="submit" value="Email My Estimate">
+        </form>
+    </div>
+</body>
+</html>

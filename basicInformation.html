@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Multi-Page Quiz Form - Page 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <iframe src="pagination.html" frameborder="0" scrolling="no"></iframe> -->
+
+    <div class="form-container">
+        <form action="selectFeatures.html">
+        <p>Are you looking for a new website or redesigning of an existing website?</p>
+            <label><input type="radio" name="q1" value="new_website_design">New Website Design</label></br>
+            <label><input type="radio" name="q1" value="redesign_of_an_existing_website">Redesign of an existing website</label> </br>
+        </br>
+
+            <label for="dropdown">How many pages do you need?</label></br>
+            <select id="dropdown" name="dropdown">
+                <option value="option1">Single Page</option>
+                <option value="option2">Up to 5 Pages</option>
+                <option value="option3">Up to 10 Pages</option>
+                <option value="option4">Up to 25 Pages</option>
+                <option value="option5">Up to 50 Pages</option>
+                <option value="option6">Up to 100 Pages</option>
+            </select>
+            <p class="small-text">Example: Home page, about page, products page, services page, individual product pages, individual service pages etc...</p>
+
+        <p>What style of UI/UX design do you prefer?</p>
+        <label><input type="radio" name="q1" value="standard_design">Standard Design(₹)</label></br>
+        <label><input type="radio" name="q1" value="advanced_design">Advanced Design (₹₹)</label> </br>
+        <label><input type="radio" name="q1" value="custom_design">Custom UI/UX Design (₹₹₹) (100% Unique)</label> </br>
+        </br>
+
+        <p>Do you need eCommerce Functionality on your website?</p>
+        <label><input type="radio" name="q1" value="no">No</label></br>
+        <label><input type="radio" name="q1" value="standard_ecommerce">Yes, Standard eCommerce</label> </br>
+        <label><input type="radio" name="q1" value="shopify_ecommerce">Yes, Shopify eCommerce</label> </br>
+        </br>
+
+        <p>Do you want us to upload the products on your eCommerce website?</p>
+        <label><input type="radio" name="q1" value="no">No, I'll upload the products myself </label></br>
+        <label><input type="radio" name="q1" value="yes">Yes, I want you to upload the products</label> </br>
+        </br>
+
+        <input type="submit" value="Select Features">
+        </form>
+    </div>
+</body>
+</html>
